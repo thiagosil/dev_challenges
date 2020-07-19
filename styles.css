@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+.logo {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  max-width: 1096px;
+  padding: 3rem;
+}
+
+img {
+  width: min(30rem, 100%);
+}
+
+h1 {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+
+  grid-col;
+}
+
+.col {
+  flex: 1;
+}
+
+.grid {
+  display: grid
+}
+
+p {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+
+button {
+  background-color: #333333;
+  color: #FFF;
+
+  padding: 1rem 2rem;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 0.9rem;
+  font-family: Montserrat;
+  color: #333333;
+}
